@@ -7,7 +7,7 @@ excerpt: "Slackware Porting Notes"
 tags: [Linux]
 image:
   feature:
-  teaser: article.png
+  teaser: blog-grey.png
   thumb:
 date: 2014-12-16
 share: false
