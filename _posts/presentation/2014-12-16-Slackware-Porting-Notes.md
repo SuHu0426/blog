@@ -10,6 +10,7 @@ image:
   teaser: skinny-bones-demo.gif
   thumb:
 date: 2014-12-16
+share: false
 ---
 
 ### Category
