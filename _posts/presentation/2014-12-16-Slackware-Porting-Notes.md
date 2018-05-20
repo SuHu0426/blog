@@ -248,7 +248,7 @@ sudo kill `cd /usr/local/var/run/openvswitch && cat ovsdb-server.pid ovs-vswitch
 more INSTALL
 ```
 
-    ### UML utilities {#uml-ut}
+    ### UML utilities
 
 ```sh
 wget http://prdownloads.sourceforge.net/user-mode-linux/uml_utilities_20040406.tar.bz2
@@ -519,7 +519,7 @@ echo $?
 sudo make install
 ```
 
-    2.  [UML utilities](#uml-ut)
+    2.  [UML utilities](#uml-utilities)
     3.  Build from linux source
 
 ```sh
