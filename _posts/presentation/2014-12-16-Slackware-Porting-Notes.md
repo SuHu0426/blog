@@ -83,34 +83,36 @@ diff mirrors mirrors.orig
 
     ### Upgrade system via slackpkg (slackware package management)
 
-        $ sudo slackpkg update gpg
-        $ sudo slackpkg update
-        $ sudo slackpkg install-new
-        $ sudo slackpkg upgrade-all
-        ...
+```sh
+sudo slackpkg update gpg
+sudo slackpkg update
+sudo slackpkg install-new
+sudo slackpkg upgrade-all
+...
 
-        Your kernel image was updated.  We highly recommend you run: lilo
-        Do you want slackpkg to run lilo now? (Y/n)
+Your kernel image was updated.  We highly recommend you run: lilo
+Do you want slackpkg to run lilo now? (Y/n)
 
-        Some packages had new configuration files installed.
-        You have four choices:
+Some packages had new configuration files installed.
+You have four choices:
 
-            (K)eep the old files and consider .new files later
+(K)eep the old files and consider .new files later
 
-            (O)verwrite all old files with the new ones. The
-               old files will be stored with the suffix .orig
+(O)verwrite all old files with the new ones. The
+    old files will be stored with the suffix .orig
 
-            (R)emove all .new files
+(R)emove all .new files
 
-            (P)rompt K, O, R selection for every single file
+(P)rompt K, O, R selection for every single file
             
-        What do you want (K/O/R/P)?
-        O
-        # Modify mirrors file again
-        $ sudo slackpkg update gpg
-        $ sudo slackpkg update
-        $ sudo slackpkg clean-system
-        $ sudo init 6
+What do you want (K/O/R/P)?
+O
+# Modify mirrors file again
+sudo slackpkg update gpg
+sudo slackpkg update
+sudo slackpkg clean-system
+sudo init 6
+```
 
 5.  Change lilo timeout
 
