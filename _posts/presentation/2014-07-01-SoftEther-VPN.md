@@ -12,11 +12,7 @@ image:
 date: 2014-12-16
 ---
 
-## Slackware Porting Notes
-=======================
-
 ### Category
---------
 
 1.  [Intall Slackware64](#install)
 2.  [Add user](#adduser)
@@ -30,6 +26,8 @@ date: 2014-12-16
 10. [Porting](#porting)
 11. [User Mode Linux](#uml)
 12. [diff Debian Slackware](#diffDS)
+
+--------
 
 1.  Intall Slackware64
     -   [Install Help](http://www.slackware.com/install/)
