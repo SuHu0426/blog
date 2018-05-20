@@ -1,0 +1,18 @@
+---
+layout: article
+title: "Blog Test"
+modified:
+categories: articles
+excerpt: "Demo post to test."
+tags: []
+image:
+  feature:
+  teaser: skinny-bones-demo.gif
+  thumb:
+date: 2018-05-20
+---
+
+## test
+```sh
+sudo echo hi
+```
