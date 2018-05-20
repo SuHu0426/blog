@@ -725,7 +725,7 @@ sudo umount /mnt/tmp
 
 |                            |                   Debian                  |                  Slackware                 |
 |:--------------------------:|:-----------------------------------------:|:------------------------------------------:|
-|  Package management tools  | apt, aptitude, dpkg                       | slackpkg, pkgtool, [install|remove]pkg     |
+|  Package management tools  | apt, aptitude, dpkg                       | slackpkg, pkgtool, [install\|remove]pkg     |
 |        init scripts        | /etc/init.d/daemon, /etc/rc.local         | /etc/rc.d/rc.daemon, /etc/rc.d/rc.local    |
 | Network configration files | /etc/network/interfaces, /etc/resolv.conf | /etc/rc.d/rc.inet1.conf, /etc/resolv.conf  |
 
