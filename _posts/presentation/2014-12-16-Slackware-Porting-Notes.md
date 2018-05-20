@@ -84,7 +84,7 @@ diff mirrors mirrors.orig
 
     ### Upgrade system via slackpkg (slackware package management)
 
-    ```sh
+```sh
 sudo slackpkg update gpg
 sudo slackpkg update
 sudo slackpkg install-new
