@@ -10,6 +10,8 @@ title: "Latest Posts"
 {% endfor %}
 </div><!-- /.tiles -->
 
+---
+
 ## Articles
 
 <div class="tiles">
@@ -17,6 +19,8 @@ title: "Latest Posts"
    {% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->
+
+---
 
 ## Presentation
 
