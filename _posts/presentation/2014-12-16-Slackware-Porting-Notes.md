@@ -31,8 +31,7 @@ date: 2014-12-16
 
 1.  Intall Slackware64
     -   [Install Help](http://www.slackware.com/install/)
-        -   [Software
-            Sets](http://www.slackware.com/install/softwaresets.php)
+        -   [Software Sets](http://www.slackware.com/install/softwaresets.php)
 
 |   A   | The base system. Contains enough software to get up and running and have a text editor and basic communications programs.                                                                          |
 |:-----:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -52,8 +51,8 @@ date: 2014-12-16
 |  XAP  | X applications that are not part of a major desktop environment. For example Ghostscript and Netscape.                                                                                             |
 |   Y   | Games (the BSD games collection, Sasteroids, Koules, and Lizards). 
 
-    -   [Making Tags and
-            Tagfiles](http://www.slackbook.org/html/package-management-making-tags-and-tagfiles.html)
+
+    -   [Making Tags and Tagfiles](http://www.slackbook.org/html/package-management-making-tags-and-tagfiles.html)
     -   [Configuration Help](http://www.slackware.com/config/)
 
 2.  Add user
@@ -258,8 +257,7 @@ make all
 sudo make install
 ```
 
-7.  [Configuring Graphical
-    Logins](http://docs.slackware.com/zh-tw:slackware:install)
+7.  [Configuring Graphical Logins](http://docs.slackware.com/zh-tw:slackware:install)
 
     You can first test that X auto-detects your video correctly by
     issuing the \`startx\` command. If X11 starts and you end up at a
