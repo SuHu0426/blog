@@ -130,6 +130,7 @@ sudo lilo
 Warning: LBA32 addressing assumed
 Added Linux  *
 One warning was issued.
+```
 
 6.  Install and configure necessary softwares
 
@@ -162,9 +163,11 @@ diff ssh_config ssh_config.orig
 > #   Port 22
 49d48
 < ForwardX11Trusted yes
+```
 
     ### [Profiles /etc/profile, \~/.profile, and \~/.bashrc](http://docs.slackware.com/howtos:cli_manual:shells)
 
+```sh
 diff profile profile.orig 
 80,82d79
 < if [ -f $HOME/.profile ]; then
@@ -174,9 +177,11 @@ more ~/.profile
 export PATH=.:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin
 more .bashrc
 source /etc/profile
+```
 
     ### [KVM compliation](http://140.120.7.21/LinuxRef/Cluster/KVM-HOWTO.html)
 
+```sh
 wget http://wiki.qemu-project.org/download/qemu-2.2.0.tar.bz2
 tar xjvf qemu-2.2.0.tar.bz2
 rm qemu-*.tar.bz2
@@ -202,9 +207,11 @@ ls -l /dev/kvm
 crw-rw-rw- 1 root root 10, 232 Dec 16 12:55 /dev/kvm
 kvm -enable-kvm
 sudo chmod 600 /dev/kvm 
+```
 
     ### Open vSwitch
 
+```sh
 wget http://openvswitch.org/releases/openvswitch-2.3.1.tar.gz
 tar zxvf openvswitch-2.3.1.tar.gz
 rm openvswitch-*.tar.gz
@@ -225,11 +232,11 @@ sudo mkdir -p /usr/local/etc/openvswitch
 sudo ovsdb-tool create /usr/local/etc/openvswitch/conf.db vswitchd/vswitch.ovsschema
 # Start configuration database, ovsdb-server.
 sudo ovsdb-server --remote=punix:/usr/local/var/run/openvswitch/db.sock \
-                    --remote=db:Open_vSwitch,Open_vSwitch,manager_options \
-                    --private-key=db:Open_vSwitch,SSL,private_key \
-                    --certificate=db:Open_vSwitch,SSL,certificate \
-                    --bootstrap-ca-cert=db:Open_vSwitch,SSL,ca_cert \
-                    --pidfile --detach
+                  --remote=db:Open_vSwitch,Open_vSwitch,manager_options \
+                  --private-key=db:Open_vSwitch,SSL,private_key \
+                  --certificate=db:Open_vSwitch,SSL,certificate \
+                  --bootstrap-ca-cert=db:Open_vSwitch,SSL,ca_cert \
+                  --pidfile --detach
 # Initialize the database using ovs-vsctl. 
 sudo ovs-vsctl --no-wait init
 # Start the main Open vSwitch daemon
@@ -239,14 +246,17 @@ sudo ovs-vswitchd --pidfile --detach
 # Stop the Open vSwitch daemons
 sudo kill `cd /usr/local/var/run/openvswitch && cat ovsdb-server.pid ovs-vswitchd.pid`
 more INSTALL
+```
 
     ### UML utilities {#uml-ut}
 
+```sh
 wget http://prdownloads.sourceforge.net/user-mode-linux/uml_utilities_20040406.tar.bz2
 tar xjvf uml_utilities_20040406.tar.bz2
 cd tools
 make all
 sudo make install
+```
 
 7.  [Configuring Graphical
     Logins](http://docs.slackware.com/zh-tw:slackware:install)
