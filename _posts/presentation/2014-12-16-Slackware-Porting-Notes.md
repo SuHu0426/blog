@@ -57,12 +57,13 @@ date: 2014-12-16
 
 2.  Add user
 3.  Edit profile (PATH)
-
-        $ emacs ~/.profile
-        export PATH=.:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin
-        $ . ~/.profile 
-        $ echo $PATH
-        .:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin
+    ```sh
+emacs ~/.profile
+export PATH=.:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin
+. ~/.profile 
+echo $PATH
+.:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin
+```
 
 4.  System upgrade to Slackware current version
 
