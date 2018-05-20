@@ -33,8 +33,8 @@ date: 2014-12-16
     -   [Install Help](http://www.slackware.com/install/)
         -   [Software Sets](http://www.slackware.com/install/softwaresets.php)
 
-|   A   | The base system. Contains enough software to get up and running and have a text editor and basic communications programs.                                                                          |
 |:-----:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   A   | The base system. Contains enough software to get up and running and have a text editor and basic communications programs.                                                                          |
 |   AP  | Various applications that do not require the X Window System.                                                                                                                                      |
 |   D   | Program development tools. Compilers, debuggers, interpreters, and man pages. It's all here.                                                                                                       |
 |   E   | GNU Emacs. Yes, Emacs is so big it requires its own series.                                                                                                                                        |
