@@ -4,13 +4,14 @@ title: "Slackware Porting Notes"
 modified: 2018-05-20T21:56:30+0800
 categories: presentation
 excerpt: "Slackware Porting Notes"
-tags: []
+tags: [Linux]
 image:
   feature:
   teaser: skinny-bones-demo.gif
   thumb:
 date: 2014-12-16
 share: false
+comments: true
 ---
 
 ### Category
