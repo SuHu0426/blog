@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Slackware Porting Notes"
-modified:
+modified: 20180520T21:56:30+0800
 categories: presentation
 excerpt: "Slackware Porting Notes"
 tags: []
@@ -724,6 +724,8 @@ sudo umount /mnt/tmp
 ```
 
 12. diff Debian Slackware
+
+```
     Debian
     Slackware
     Package management tools
@@ -735,7 +737,8 @@ sudo umount /mnt/tmp
     Network configration files
     /etc/network/interfaces, /etc/resolv.conf
     /etc/rc.d/rc.inet1.conf, /etc/resolv.conf
+```
 
 * * * * *
 
-[Chi-Sheng Su](mailto:cssu@csmail.nchu.edu.tw)
+[Chi-Sheng Su](mailto:lagnua@gmail.com)
