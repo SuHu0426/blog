@@ -10,3 +10,4 @@ title: "Latest Posts"
 {% endfor %}
 </div><!-- /.tiles -->
 
+{% include toc.html %} 
