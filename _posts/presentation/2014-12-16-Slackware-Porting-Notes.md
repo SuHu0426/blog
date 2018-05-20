@@ -57,7 +57,8 @@ date: 2014-12-16
 
 2.  Add user
 3.  Edit profile (PATH)
-    ```sh
+
+```sh
 emacs ~/.profile
 export PATH=.:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin
 . ~/.profile 
@@ -69,14 +70,16 @@ echo $PATH
 
     ### Modify /etc/slackpkg/mirrors
 
-        $ cd /etc/slackpkg/
-        $ sudo emacs mirrors
-        $ sudo mv mirrors~ mirrors.orig
-        $ diff mirrors mirrors.orig
-        382c382
-        < http://ftp.twaren.net/Linux/Slackware/slackware64-current/
-        ---
-        > # http://ftp.twaren.net/Linux/Slackware/slackware64-current/
+```sh
+cd /etc/slackpkg/
+sudo emacs mirrors
+sudo mv mirrors~ mirrors.orig
+diff mirrors mirrors.orig
+382c382
+< http://ftp.twaren.net/Linux/Slackware/slackware64-current/
+---
+> # http://ftp.twaren.net/Linux/Slackware/slackware64-current/
+```
 
     ### Upgrade system via slackpkg (slackware package management)
 
