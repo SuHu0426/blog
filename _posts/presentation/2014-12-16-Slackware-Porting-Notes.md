@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Slackware Porting Notes"
-modified: 20180520T21:56:30+0800
+modified: 2018-05-20T21:56:30+0800
 categories: presentation
 excerpt: "Slackware Porting Notes"
 tags: []
