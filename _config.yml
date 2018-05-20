@@ -8,6 +8,7 @@ locale: en
 url: "https://suhu0426.github.io/blog"
 feed:
   path: atom.xml
+share: false
 
 # Jekyll configuration
 
